@@ -19,13 +19,14 @@ The four function is used to take each line from the main fi
 ### Step 6: 
 The four function is used to take each line from the main file.
 ## PROGRAM:
+```
 #Developed by: Rathish kumar C
 #Reference no: 22009283
 with open('file.txt','r') as f1:
     with open('file2.txt','a') as f2:
         for line in f1:
             f2.write(line)
-
+```
 ### OUTPUT:
 
 ![image](https://user-images.githubusercontent.com/120539398/214825193-b71c31b3-8375-4f79-8873-8de016972219.png)
